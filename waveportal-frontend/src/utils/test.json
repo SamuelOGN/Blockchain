@@ -1,0 +1,19 @@
+{
+    "messages": [
+        {
+            "address": "0x8930430434034343",
+            "message": "This is my first message to the chain",
+            "timestamp": "09/12/2021"
+        },
+        {
+            "address": "0x8930430434034343",
+            "message": "This is my first message to the chain",
+            "timestamp": "09/12/2021"
+        },
+        {
+            "address": "0x8930430434034343",
+            "message": "This is my first message to the chain",
+            "timestamp": "09/12/2021"
+        }
+    ]
+}
