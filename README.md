@@ -1,15 +1,5 @@
-# Basic Sample Hardhat Project
+# Digital Estate Project
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, a sample script that deploys that contract, and an example of a task implementation, which simply lists the available accounts.
+This project is a test project to begin learning blockchain development.
+The project was built using hardhat to manage local environment, solidity, node and react
 
-Try running some of the following tasks:
-
-```shell
-npx hardhat accounts
-npx hardhat compile
-npx hardhat clean
-npx hardhat test
-npx hardhat node
-node scripts/sample-script.js
-npx hardhat help
-```
