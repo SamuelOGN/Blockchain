@@ -3,6 +3,8 @@ import { AppWrapper, Container, Input, Titles, DetailsText, BioText, DetailsCont
 // import data from "./utils/test.json"
 import { ethers } from "ethers";
 import abi from "./utils/WavePortal.json"
+import detectEthereumProvider from '@metamask/detect-provider'
+ 
 
 function App() {
 
@@ -122,7 +124,7 @@ function App() {
         <Titles>👋 Welcome to my digital estate</Titles>
         <BioText>I’m Samuel Nwachukwu a blockchain tech enthusiaist and I am so happy you decided to stop by. Connect your Ethereum wallet and drop a message! Might drop some coins for a random visitor.</BioText>
         <Input placeholder="Say something..." onChange={handleChange}/>
-        <WaveButton onClick={() => wave}>👋 Wave and send the message</WaveButton>
+        <WaveButton onClick={() => wave(textMessage)}>👋 Wave and send the message</WaveButton>
         {currAccount ? null : (<ConnectWalletButton onClick={connectWallet} > Connect wallet </ConnectWalletButton>) }
       </Container>
       <Titles>My cool visitors 🏡</Titles>
